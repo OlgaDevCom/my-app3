@@ -1,0 +1,59 @@
+{
+  "appgenVersion": 1,
+  "catalogVersion": 8,
+  "configVersion": 1,
+  "configHash": "6feeb99218d671ef4c0d37fe52af343413e81be4cfc20ec4f6e5e83dc6811bff",
+  "preset": "minimal",
+  "flutter": {
+    "sdk": "3.47.0",
+    "dart": "^3.13.0"
+  },
+  "modules": [
+    "app_base",
+    "core",
+    "testing",
+    "logging",
+    "theme",
+    "localization",
+    "state_riverpod",
+    "router_go_router",
+    "app_design",
+    "models_freezed",
+    "drift",
+    "secure_storage",
+    "preferences",
+    "settings",
+    "github_actions"
+  ],
+  "dependencies": {
+    "drift": "^2.35.0",
+    "drift_flutter": "^0.3.1",
+    "flutter": "sdk:flutter",
+    "flutter_localizations": "sdk:flutter",
+    "flutter_riverpod": "^3.4.3",
+    "flutter_secure_storage": "^11.2.0",
+    "freezed_annotation": "^3.1.0",
+    "go_router": "^18.0.1",
+    "intl": "^0.20.3",
+    "json_annotation": "^4.12.0",
+    "logging": "^1.3.0",
+    "path": "^1.9.1",
+    "path_provider": "^2.1.6",
+    "riverpod_annotation": "^4.0.7",
+    "shared_preferences": "^2.5.5"
+  },
+  "devDependencies": {
+    "build_runner": "^2.16.1",
+    "drift_dev": "^2.35.0",
+    "flutter_lints": "^6.0.0",
+    "flutter_test": "sdk:flutter",
+    "freezed": "^4.0.2",
+    "json_serializable": "^6.14.1",
+    "mocktail": "^1.0.5",
+    "riverpod_generator": "^4.0.9"
+  },
+  "manualSteps": [
+    "Add the iOS signing certificate, provisioning profile and App Store Connect API key as repository secrets.",
+    "Add the Android keystore and its passwords as repository secrets."
+  ]
+}
